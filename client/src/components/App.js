@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form"
 import { Form, Button } from "react-bootstrap"
 import axios from "axios"
 import Swal from "sweetalert2"
-const BASE_API_URL = "https://timestamp-masoud.herokuapp.com/"
+const BASE_API_URL = "https://timestamp-masoud.herokuapp.com"
 
 const App = (props) => {
 

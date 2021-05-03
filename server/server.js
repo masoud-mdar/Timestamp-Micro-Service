@@ -16,7 +16,6 @@ app.use(router)
 
 
 app.get("/", function (req, res) {
-  res.sendFile(__dirname + '/client/build/index.html');
 })
 
 
