@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: monospace;
+}
+
+.container {
+    margin-top: 10%;
+}
+
+h1{
+    font-family: "Waiting for the Sunrise";
+}
+
+.div {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    letter-spacing: 1px;
+    margin-top: 2rem;
+}
+
+.input-form {
+    width: 60%;
+    margin: 3rem auto;
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+    color: unset;
+    background-color: unset;
+    border-color: unset;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 2.2rem;
+}
+
+.btn {
+    letter-spacing: 1px;
+}
